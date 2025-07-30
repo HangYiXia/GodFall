@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 3670506691113038255}
   - component: {fileID: 6515876433226784898}
   - component: {fileID: -3641551581139277059}
+  - component: {fileID: 8063222898475278217}
   m_Layer: 0
   m_Name: Enemy_Tough
   m_TagString: Enemy
@@ -240,6 +241,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fa5a5c031c4ea74b8cddf1bae10b1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &8063222898475278217
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093894162838626468}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4457629009350992952
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,38 +11,38 @@ public class TurretUI : MonoBehaviour
     public Button upgradeButton;
     public Text sellValue;
 
-    public void SetTarget(Node _target)
-    {
-        target = _target;
-        transform.position = target.GetBuildPosition();
-        if (!target.isUpgraded)
-        {
-            upgradeCost.text = "$" + target.turretBlueprint.upgradeCost.ToString();
-            upgradeButton.interactable = true;
-        } else
-        {
-            upgradeCost.text = "DONE";
-            upgradeButton.interactable = false;
-        }
+    //public void SetTarget(Node _target)
+    //{
+    //    target = _target;
+    //    transform.position = target.transform.position;
+    //    if (!target.isUpgraded)
+    //    {
+    //        upgradeCost.text = "$" + target.turretBlueprint.upgradeCost.ToString();
+    //        upgradeButton.interactable = true;
+    //    } else
+    //    {
+    //        upgradeCost.text = "DONE";
+    //        upgradeButton.interactable = false;
+    //    }
 
-        sellValue.text = "$" + target.turretBlueprint.GetSellAmount().ToString();
+    //    sellValue.text = "$" + target.turretBlueprint.GetSellAmount().ToString();
 
-        ui.SetActive(true);
-    }
+    //    ui.SetActive(true);
+    //}
 
-    public void Hide()
-    {
-        ui.SetActive(false);
-    }
+    //public void Hide()
+    //{
+    //    ui.SetActive(false);
+    //}
 
-    public void Upgrade()
-    {
-        target.UpgradeTurret();
-        BuildManager.instance.DeselectNode();
-    }
-    public void Sell()
-    {
-        target.SellTurret();
-        BuildManager.instance.DeselectNode();
-    }
+    //public void Upgrade()
+    //{
+    //    target.UpgradeTurret();
+    //    BuildManager.instance.DeselectNode();
+    //}
+    //public void Sell()
+    //{
+    //    target.SellTurret();
+    //    BuildManager.instance.DeselectNode();
+    //}
 }

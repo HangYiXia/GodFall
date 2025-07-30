@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    private float health;
+    private double health;
     public float startHealth = 100;
     public int worth = 1;
     [HideInInspector]
@@ -25,14 +25,14 @@ public class Enemy : MonoBehaviour
         health = startHealth;
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(double damage)
     {
         health -= damage;
         if (health <= 0 && !isDead)
         {
             Die();
         }
-        healthBar.fillAmount = health / startHealth;
+        healthBar.fillAmount = (float)(health / startHealth);
 
         return;
     }

@@ -3,7 +3,7 @@ using UnityEngine;
 public class Shop : MonoBehaviour
 {
     public TurretBlueprint arrowTower;
-    public TurretBlueprint lightningTower;
+    public TurretBlueprint laserTower;
     public TurretBlueprint catapultTower;
 
     BuildManager buildManager;
@@ -20,7 +20,7 @@ public class Shop : MonoBehaviour
     public void SelectLightningTurret()
     {
         Debug.Log("Lightning Tower Selected!");
-        buildManager.SelectTurretToBuild(lightningTower);
+        buildManager.SelectTurretToBuild(laserTower);
     }
 
     public void SelectCatapultTower()

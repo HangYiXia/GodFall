@@ -8387,18 +8387,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowTower:
-    prefab: {fileID: 1835034366939910595, guid: 67eac3d3cfb22964c8237a33ca1cc5af, type: 3}
-    upgradePrefab: {fileID: 1835034366939910595, guid: b2cc6d2d6c3ed3f469bd9196abdf1882, type: 3}
+    prefab: {fileID: 6296953158822466665, guid: e698fb43c2895b544bf902b5648b31fc, type: 3}
+    upgradePrefab: {fileID: 6296953158822466665, guid: e698fb43c2895b544bf902b5648b31fc, type: 3}
     cost: 10
     upgradeCost: 60
-  lightningTower:
-    prefab: {fileID: 5101243134034663896, guid: 4c33dd090a88a0448a09de12d8088353, type: 3}
-    upgradePrefab: {fileID: 5101243134034663896, guid: 36b901e5a0daeaf49a168b2049fa75ef, type: 3}
-    cost: 60
-    upgradeCost: 150
+  laserTower:
+    prefab: {fileID: 1777939574070521305, guid: 07678b9fa98c3dd4b80ecd757f87d56c, type: 3}
+    upgradePrefab: {fileID: 1777939574070521305, guid: 07678b9fa98c3dd4b80ecd757f87d56c, type: 3}
+    cost: 0
+    upgradeCost: 0
   catapultTower:
-    prefab: {fileID: 2602089966300743218, guid: bfa5aebfa2eecb548a62223955e4d91a, type: 3}
-    upgradePrefab: {fileID: 2602089966300743218, guid: 3e192008c6394174e9e8957a5dd66189, type: 3}
+    prefab: {fileID: 8511582838641813340, guid: fc38d2fb3925d7c44817a5e3047a7086, type: 3}
+    upgradePrefab: {fileID: 8511582838641813340, guid: fc38d2fb3925d7c44817a5e3047a7086, type: 3}
     cost: 50
     upgradeCost: 100
 --- !u!1 &787763315
@@ -18431,9 +18431,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d6adc723a409c74b84c9fbc7312f27f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildEffectPrefab: {fileID: 8304339760810672634, guid: 14c3aa90ad642ce42a8dc0884c6ed477, type: 3}
-  sellEffectPrefab: {fileID: 8304339760810672634, guid: 3904d9874d2c0fc46911fab0032ba6be, type: 3}
-  turretUI: {fileID: 1043839193}
+  nodeLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!114 &1570556013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18446,7 +18446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a05241573465a4e4db1a7eb13b98e48c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 40
+  startMoney: 200
   startLives: 10
 --- !u!114 &1570556014
 MonoBehaviour:
@@ -23781,6 +23781,10 @@ PrefabInstance:
     - target: {fileID: 1962318612119608992, guid: da4c40e83519132449542a65e1e911ad, type: 3}
       propertyPath: m_Name
       value: SceneFader
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962318612119608992, guid: da4c40e83519132449542a65e1e911ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9057277935858578421, guid: da4c40e83519132449542a65e1e911ad, type: 3}
       propertyPath: m_LocalPosition.x
