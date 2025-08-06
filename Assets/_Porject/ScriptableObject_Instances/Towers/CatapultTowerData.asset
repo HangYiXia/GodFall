@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb9196044ab4f34db98382e196f42b4, type: 3}
+  m_Name: CatapultTowerData
+  m_EditorClassIdentifier: 
+  towerName: "\u6295\u77F3\u5854"
+  basePrefab: {fileID: 8511582838641813340, guid: fc38d2fb3925d7c44817a5e3047a7086, type: 3}
+  _rarity: {fileID: 11400000, guid: b1f49127429043743ad4119f3a264146, type: 2}
+  initialCost: 100
+  initialDamage: 50
+  initialAttackRate: 1
+  initialAttackRange: 20
+  costGrowthFactor: 1.15
+  damageGrowthFactor: 1.2
+  attackRateGrowthFactor: 0.05
+  rangeIncreaseInterval: 5
+  rangeIncreaseAmount: 2

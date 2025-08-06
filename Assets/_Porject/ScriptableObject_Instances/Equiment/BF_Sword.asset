@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16dd722ef5f28f4e8ef1050b19679a7, type: 3}
+  m_Name: BF_Sword
+  m_EditorClassIdentifier: 
+  _itemName: "\u66B4\u98CE\u5927\u5251"
+  _itemDescription: "\u52A0\u70B9\u653B\u51FB\u529B\u5427"
+  _icon: {fileID: 21300000, guid: 002bcd34779a47f4f8011ae355051717, type: 3}
+  _rarity: {fileID: 11400000, guid: b1f49127429043743ad4119f3a264146, type: 2}
+  _slot: 0
+  _modifiers:
+  - Attribute: {fileID: 11400000, guid: 6387f6bf7b57f224986691e588ddcc2e, type: 2}
+    Type: 0
+    Value: 10
