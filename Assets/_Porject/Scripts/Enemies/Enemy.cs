@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
 
     // --- 状态变量 ---
     private double maxHealth; // 当前波次的敌人最大生命值
-    private double currentHealth;
+    [SerializeField] private double currentHealth;
     public float currentSpeed;
     private bool isDead = false;
 

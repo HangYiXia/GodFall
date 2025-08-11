@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Fast
   m_EditorClassIdentifier: 
   _enemyName: "\u8DD1\u5F97\u5FEB"
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 4093894162838626468, guid: 4bf1a953f0afa58488cb0770a247becd, type: 3}
   _rarity: {fileID: 11400000, guid: b1f49127429043743ad4119f3a264146, type: 2}
   _baseHealth: 60
   _baseSpeed: 25
   _armor: 0
   _moneyReward: 2
   _experienceReward: 0
+  _lootTable: {fileID: 0}
+  _healthScalingType: 1
+  _healthScalingFactor: 1.15
